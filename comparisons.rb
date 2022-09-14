@@ -17,31 +17,31 @@ number_students = 20
 string_teachers = "4"
 numberDogs = 0
 
-# EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
+# EXAMPLE: print the result of the comparison: is number_teachers greater than number_students?
 puts "Is number_teachers greater than number_students?", number_teachers > number_students
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
-
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
-
+puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
-
+puts "Is number_teachers not equal to number_students?", number_teachers != number_students
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
-
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
-
+puts "Is number_students greater than or equal to 21?", number_students >= 21
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
-
+puts "Is number_students less than or equal to 20?", number_students <= 20
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
-
+puts "Is number_students less than or equal to 21?", number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
@@ -54,21 +54,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
-
+#This line is outputting a boolean stating if the the first number is less than the second. It will output true
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-
+#These lines are telling ruby that books is equal to three and outputting a boolean stating if 4 is less than books. It will output false
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
-
+#These lines are stating two variables and then outputting a boolean stating if friends is the greater of the variables. It will output true
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+#These lines are stating two variables and outputting a boolean stating if they do not equal eachother. This will output true.
 
 #-------------------
 # PART 3: Logical Operators
@@ -90,15 +90,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+#True
 
 # Determine if the dog loves to play and loves the dog park
-
+#False
 
 # Determine if the dog loves to play or loves the dog park
-
+#True
 
 # Determine if the dog loves to play and is a puppy
+#Puppy is not a defined variable. I would consider 1 year old a puppy, but you would have to write something like if age <= 1, puppy = true end
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: It cause an error because puppy is not defined.
